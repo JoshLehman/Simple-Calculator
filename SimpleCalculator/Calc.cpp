@@ -65,9 +65,9 @@ void DisplayMenu()
 
 void Addition()
 {
-	Log("First number");
+	Log("Please enter first number");
 	LogIn(num1);
-	Log("Second number");
+	Log("Please enter second number");
 	LogIn(num2);
 	double result = num1 + num2;
 	Log(result);
@@ -76,9 +76,9 @@ void Addition()
 
 void Subtraction()
 {
-	Log("First number");
+	Log("Please enter first number");
 	LogIn(num1);
-	Log("Second number");
+	Log("Please enter second number");
 	LogIn(num2);
 	double result = num1 - num2;
 	Log(result);
@@ -87,9 +87,9 @@ void Subtraction()
 
 void Division()
 {
-	Log("First number");
+	Log("Please enter first number");
 	LogIn(num1);
-	Log("Second number");
+	Log("Please enter second number");
 	LogIn(num2);
 	double result = num1 / num2;
 	Log(result);
@@ -98,9 +98,9 @@ void Division()
 
 void Multiplication()
 {
-	Log("First number");
+	Log("Please enter first number");
 	LogIn(num1);
-	Log("Second number");
+	Log("Please enter second number");
 	LogIn(num2);
 	double result = num1 * num2;
 	Log(result);
